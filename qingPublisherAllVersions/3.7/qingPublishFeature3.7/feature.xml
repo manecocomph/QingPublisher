@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="qingPublishFeature3.6"
+      label="qingPublisher"
+      version="1.0.0.qualifier"
+      provider-name="http://tianxiaohui.com">
+
+   <description url="http://tianxiaohui.com/qingpublisher/">
+      Write your blog in eclipse!
+   </description>
+
+   <copyright url="http://tianxiaohui.com/qingpublisher/#copyright">
+      you can use it.
+   </copyright>
+
+   <license url="http://tianxiaohui.com/qingpublisher/#license">
+      [Enter License Description here.]
+   </license>
+
+   <url>
+      <update label="QingPublisher Update Site" url="http://tianxiaohui.com/qingPublisherUpdateSite"/>
+   </url>
+
+   <plugin
+         id="qingPublish"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlrpc"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.ws.commons.util"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

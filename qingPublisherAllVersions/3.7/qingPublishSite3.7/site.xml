@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="QingPublisher Update Site" url="http://tianxiaohui.com/qingPublisherUpdateSite">
+      QingPublisher Update Site
+   </description>
+   <feature url="features/qingPublishFeature3.6_1.0.0.201208281259.jar" id="qingPublishFeature3.6" version="1.0.0.201208281259">
+      <category name="qingPublish"/>
+   </feature>
+   <category-def name="qingPublish" label="qingPublish"/>
+</site>

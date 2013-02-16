@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            adaptable="true"
+            id="qingPublish.publish"
+            nameFilter="*.*"
+            objectClass="org.eclipse.core.resources.IFile">
+         <action
+               label="%quickPublish"
+               menubarPath="qingPublish.publishAsBlog/quickPublish"
+               class="com.tianxiaohui.qingpublish.popup.actions.MyBlogPublisher"
+               enablesFor="+"
+               id="qingPublish.quickPublish">
+         </action>
+         <action
+               label="%editPublish"
+               menubarPath="qingPublish.publishAsBlog/editPublish"
+               class="com.tianxiaohui.qingpublish.popup.actions.EditPublish"
+               enablesFor="+"
+               id="qingPublish.editPublish">
+         </action>
+         <action
+               label="%setup"
+               menubarPath="qingPublish.publishAsBlog/setup"
+               class="com.tianxiaohui.qingpublish.popup.actions.SetupAccount"
+               enablesFor="+"
+               id="qingPublish.editPublish">
+         </action>
+         <menu
+               id="qingPublish.publishAsBlog"
+               label="%publishAsBlog"
+               path="additions">
+            <separator
+                  name="quickPublish">
+            </separator>
+            <separator
+                  name="editPublish">
+            </separator>
+            <separator
+                  name="setup">
+            </separator>
+         </menu>
+      </objectContribution>
+   </extension>
+
+</plugin>

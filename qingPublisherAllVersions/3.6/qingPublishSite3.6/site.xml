@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/qingPublishFeature3.6_1.0.0.201209042217.jar" id="qingPublishFeature3.6" version="1.0.0.201209042217">
+      <category name="QingPublisher"/>
+   </feature>
+   <category-def name="QingPublisher" label="QingPublisher">
+      <description>
+         QingPublisher
+      </description>
+   </category-def>
+</site>
